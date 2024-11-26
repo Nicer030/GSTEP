@@ -1,2 +1,2 @@
 # GSTEP
-Trajectory prediction, Autonomous driving, Group commonality, Attention mechanism, Encoder
+Trajectory Prediction Based on Grouped Spatial-Temporal Encoder
