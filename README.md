@@ -8,4 +8,4 @@
 </p>
 
 ## Getting Started
-Please refer to [GETTING_STARTED.md](docs/Getting_Start.md).
+Please refer to [GETTING_STARTED.md](docs/Gettting Started.md).
