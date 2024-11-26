@@ -3,8 +3,8 @@
 ### Install dependencies
 - Create a new conda virtual env
 ```
-conda create --name simpl python=3.8
-conda activate simpl
+conda create --name gstep python=3.8
+conda activate gstep
 ```
 
 - Install PyTorch according to your CUDA version. We recommend CUDA >= 11.1, PyTorch >= 1.8.0.
@@ -43,7 +43,7 @@ data_argo
 
 The pre-trained weights are located at `saved_models/`. Use the script below to visualize prediction results:
 ```
-sh scripts/simpl_av1_vis.sh
+sh scripts/gstep_av1_vis.sh
 ```
 
 Since we store each sequence as a single file, the system may raise error `OSError: [Erron 24] Too many open files` during evaluation and training. You may use the command below to solve this issue:
@@ -64,20 +64,20 @@ The preprocessed dataset will cost about 15 GB storage, please reserve enough sp
 - Launch training using the script:
 ```
 # single-GPU
-sh scripts/simpl_av1_train.sh
+sh scripts/gstep_av1_train.sh
 
 # multi-GPU based on DDP
-sh scripts/simpl_av1_train_ddp.sh
+sh scripts/gstep_av1_train_ddp.sh
 ```
 
 - For model evaluation, please refer to the following scripts:
 ```
 # single-GPU
-sh scripts/simpl_av1_eval.sh
+sh scripts/gstep_av1_eval.sh
 
 # multi-GPU based on DDP
-sh scripts/simpl_av1_eval_ddp.sh
+sh scripts/gstep_av1_eval_ddp.sh
 ```
 
-### Train/Evaluate/Visualize SIMPL using Argoverse 2
+### Train/Evaluate/Visualize GSTEP using Argoverse 2
 Please refer to the scripts in the directory `scripts/`, and the usage is similar to scripts for the Argoverse 1 dataset. If you have any questions, please feel free to raise an issue or contact us via email.
