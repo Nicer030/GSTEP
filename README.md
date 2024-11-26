@@ -11,7 +11,7 @@
 
 The results are  on the test spilt on the Argoverse 1 motion forecasting dataset.
 | Model | minADE_k | minFDE_k | MR_k |  b-minFDE_k  |  Param |
-| -|-|-|-|
+| -|-|-|-|-|-|
 | LaneGCN |  0.87  | 1.36 | 0.162 | 2.05  |  3.7M  |
 | SIMPL |  0.79  | 1.18 | 0.123 |  1.81 |  1.8M  |
 | GSTEP |  0.65  | 0.97 | 0.084 |  1.60  |  1.9M  |
