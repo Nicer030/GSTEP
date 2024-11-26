@@ -10,7 +10,6 @@
 ## Argoverse1
 
 The results are  on the test spilt on the Argoverse 1 motion forecasting dataset.
-Method & $\text{minADE}_{k}$ & $\text{minFDE}_{k}$& $\text{MR}_{k}$ & $\text{b-minFDE}_{k}$
 | Model | minADE_k | minFDE_k | MR_k |  b-minFDE_k  |  Param |
 | -|-|-|-|
 | LaneGCN |  0.87  | 1.36 | 0.162 | 2.05  |  3.7M  |
