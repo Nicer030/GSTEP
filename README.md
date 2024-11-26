@@ -11,12 +11,11 @@
 
 The results are  on the test spilt on the Argoverse 1 motion forecasting dataset.
 Method & $\text{minADE}_{k}$ & $\text{minFDE}_{k}$& $\text{MR}_{k}$ & $\text{b-minFDE}_{k}$
-| Model | Car@R11 | Pedestrian@R11 | Cyclist@R11 |
+| Model | minADE_k | minFDE_k | MR_k |  b-minFDE_k  |  Param |
 | -|-|-|-|
-| SECOND |  78.27 | 53.23 | 65.64 |
-| SECOND+HMFI | 78.72 | 55.32 | 69.13|
-| Voxel-RCNN |  84.27 | 60.11 | 72.07 |
-| Voxel-RCNN+HMFI | 85.14 | 62.41 | 74.11|
+| LaneGCN |  0.87  | 1.36 | 0.162 | 2.05  |  3.7M  |
+| SIMPL |  0.79  | 1.18 | 0.123 |  1.81 |  1.8M  |
+| GSTEP |  0.65  | 0.97 | 0.084 |  1.60  |  1.9M  |
 
 ## Getting Started
 Please refer to [Gettting_Started.md](docs/Gettting_Started.md).
